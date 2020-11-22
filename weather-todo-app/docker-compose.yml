@@ -5,7 +5,7 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root1234
-      MYSQL_DATABASE: mydb
+      MYSQL_DATABASE: WeatherTodo
     ports:
       - "3306:3306"
     volumes:
