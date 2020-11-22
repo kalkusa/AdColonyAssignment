@@ -40,6 +40,7 @@ export default class Server {
          * @name Server#db
          */
         this.db = new DB(this.config.get('db'));
+        this.db.connection();
     }
 
     /**
