@@ -1,0 +1,19 @@
+
+
+.container {
+    font-size: 0.875rem;
+    padding: 0.5rem;
+}
+
+
+.statusOK {
+    color: #00FF22;
+}
+
+.statusError {
+    color: #F40000;
+}
+
+.statusUnknown {
+    color: #222222;
+}
